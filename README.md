@@ -1,6 +1,6 @@
 # Interactive Demo: Retrieval-Augmented Generation (RAG) Interface
 
-This demo built with **FastAPI** and **Streamlit**. FastAPI provides chat and RAG APIs, while Streamlit offers a simple user interface. The system uses the **GPT API** as the LLM and a **local API retriever** to ground responses in retrieved context.
+This demo is built using FastAPI and Streamlit. FastAPI handles the chat and RAG APIs. Streamlit provides a simple user interface. The system uses the GPT API as the language model. A local retriever API supplies relevant context to improve the responses.
 
 - GPT API as the LLM  
 - FastAPI for chat, search, and RAG APIs  
