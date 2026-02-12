@@ -34,6 +34,11 @@ python -m uvicorn api.main:app --reload
 Create a .env file:
 ```bash
 OPENAI_API_KEY=your_api_key
+## RAG
+VECTOR_DB_API_IP='your_api_key'
+VECTOR_DB_API_KEY='your_api_key'
+## Interface
+UI_CHAT_API_IP='http://127.0.0.1:8000/chat'
 ```
 
 ## Project Structure
